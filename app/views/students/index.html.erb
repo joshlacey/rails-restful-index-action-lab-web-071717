@@ -1,0 +1,5 @@
+<% @students.each do |student| %>
+  <% if student.first_name && student.last_name %>
+  <p><%= student.to_s %></p>
+  <% end %>
+<% end %>
